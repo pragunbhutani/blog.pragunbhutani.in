@@ -5,71 +5,83 @@
     <atom:link href="http://blog.pragunbhutani.in/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://blog.pragunbhutani.in</link>
     <description>Here, occasionally, stuff will be written.</description>
-    <pubDate>Tue, 30 Apr 2013 05:30:00 +0630</pubDate>
+    <pubDate>Fri, 29 Mar 2013 05:30:00 +0630</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>README</title>
-      <link>http://blog.pragunbhutani.in/articles/hello-world/</link>
-      <pubDate>Tue, 30 Apr 2013 05:30:00 +0630</pubDate>
-      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/hello-world/</guid>
+      <title>Suck, Squeeze, Bang, Blow.</title>
+      <link>http://blog.pragunbhutani.in/articles/suck-squeeze-bang-blow/</link>
+      <pubDate>Fri, 29 Mar 2013 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/suck-squeeze-bang-blow/</guid>
       <author></author>
-      <description>&lt;p&gt;Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available — run &lt;code&gt;wintersmith new --help&lt;/code&gt; to list them.&lt;/p&gt;
-&lt;h2&gt;&lt;em&gt;Repeat after me:&lt;/em&gt; This is my blog. There are many like it, but this one is mine. My blog is my best friend. It is my life. I must master it as I must master my life. My blog, without me, is useless. Without my blog, I am useless.&lt;/h2&gt;
-&lt;p&gt;Good, now, the directory structure of your blog is as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;├── config.json               &amp;lt;- site configuration
-├── contents
-│   ├── about.md
-│   ├── archive.json
-│   ├── articles              &amp;lt;– each article has its own directory
-│   │   ├── another-test
-│   │   │   └── index.md
-│   │   ├── bamboo-cutter
-│   │   │   ├── index.md
-│   │   │   └── taketori_monogatari.jpg
-│   │   ├── hello-world
-│   │   │   └── index.md
-│   │   ├── markdown-syntax
-│   │   │   └── index.md
-│   │   └── red-herring
-│   │       ├── banana.png
-│   │       └── index.md
-│   ├── authors               &amp;lt;- author metadata, check author.jade
-│   │   ├── baker.json
-│   │   └── the-wintersmith.json
-│   ├── css
-│   │   └── main.css
-│   └── feed.json
-├── plugins
-│   └── paginator.coffee      &amp;lt;- paginator plugin
-├── templates
-│   ├── archive.jade
-│   ├── article.jade
-│   ├── author.jade
-│   ├── feed.jade
-│   ├── index.jade
-│   └── layout.jade
-└── views
-    └── articles.coffee       &amp;lt;- view that lists articles&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Articles are sorted by date and 3 are shown per page, you can configure this and more in config.json. Check paginator.coffee for all options related to pagination, most plugins also have their own options.&lt;/p&gt;
-&lt;h3&gt;A typical article&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;lang-markdown&quot;&gt;&lt;span class=&quot;horizontal_rule&quot;&gt;---&lt;/span&gt;
-title: Hear me blog
-author: johndoe
-&lt;span class=&quot;header&quot;&gt;date: 2012-12-12 12:12
----&lt;/span&gt;
-
-This will be shown as the article excerpt.
-
-&lt;span class=&quot;header&quot;&gt;## A h2, hr or &amp;lt;span class=&quot;more&quot;&amp;gt; marks where the intro cuts off&lt;/span&gt;
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is where I leave you to your own devices. Join &lt;strong&gt;#wintersmith&lt;/strong&gt; on freenode if you have any questions.&lt;/p&gt;
+      <description>&lt;p&gt;Throughout my years of engineering, I&amp;#39;ve thought about this question a countless number of times. “Why did I decide to study engineering?” In part, it could have been because of all the promises of riches and glory that the life of an engineer brings, that we were told as kids in this country. How ironic it is to have such a multitude of engineers in a place so annoyingly under-engineered! I digress, sorry. That topic in itself deserves to be expounded upon in a series of articles.&lt;/p&gt;
+&lt;p&gt;So, was it for the riches? I don‘t know. I don’t think so.&lt;/p&gt;
+&lt;p&gt;Whenever I try to think back to the times when I was a kid and my mind wasn&amp;#39;t encumbered with illusions of reality, I realize that maybe this was the person I was meant to be from the get go. Right from the very beginning, I was interested in understanding how things (anything and everything) worked!&lt;/p&gt;
+&lt;p&gt;It began with my fascination with car engines, my first ‘Mechanix’ toy kit and the rabbit hole just kept on going deeper and deeper…&lt;/p&gt;
+&lt;p&gt;How did a switch make the fan go round? Why does turning the knob make it go faster? How did the hairdresser‘s spray turn water into that fine, cool mist? What made aeroplanes fly? What exactly is ’fire&amp;#39; and why is it the way it is?&lt;/p&gt;
+&lt;p&gt;I can‘t remember a time in my life when I wasn’t pursuing one such curiosity or another. Like I said, I guess I was plonked into this world as a tinker destined to become an engineer some day. That unending desire to figure out the nuts and bolts of everything. When computers came along, I was naturally taken in by the wonders of this magical device that could make a &lt;a href=&quot;http://en.wikipedia.org/wiki/Logo_(programming_language&quot;&gt;turtle&lt;/a&gt;#Turtle_and_graphics) draw all forms of shapes and figures by the command of a few words! That fascination sowed the seeds of what was to become my decision to study Computer Science at college.&lt;/p&gt;
+&lt;p&gt;Somewhere during my first year though, I forgot about all of this. I think it was a fear of commitment that gripped me. Or maybe a nagging voice inside that kept telling me that I hadn‘t even been exposed to all that was ’out there‘ and all I could be. Four years of stumbling and wandering have brought me to this point where I’m once again aware of who I am.&lt;/p&gt;
+&lt;p&gt;And I am not afraid.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Skadool - Flexible scheduling powered by Plivo</title>
+      <link>http://blog.pragunbhutani.in/articles/skadool-plivo/</link>
+      <pubDate>Sun, 27 Jan 2013 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/skadool-plivo/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;a href=&quot;http://plivo.com/&quot;&gt;Plivo&lt;/a&gt; is a great cloud platform that allows you to build powerful telephony apps in a breeze. Now I&amp;#39;m not much of a developer, but when I was asked to use it and build an app, I decided to give it a spin!
+It was a little intimidating at first, but fortunately Plivo has very well documented code and a fantastic set of helper functions that made my job so much easier.&lt;/p&gt;
+&lt;p&gt;The idea for my app came from the need to make sure that people don‘t miss courier deliveries. I, for one, hate it when I’ve purchased something online and miss the shipment when there&amp;#39;s noone there to receive it. Courier companies must not be very fond of it either, seeing as they have to then ship it all over again. Such a terrible waste of manpower hours.&lt;/p&gt;
+&lt;p&gt;How cool would it be if on the morning of your delivery, the courier-system could place an auto-generated IVR call or send a text to the delivery recipients asking them if they&amp;#39;d be available to receive their deliveries that day?&lt;/p&gt;
+&lt;p&gt;Skadool is my attempt to create such an app. I‘ve used Plivo’s framework to power it. I added a small API(my first, in fact!) to it to allow potential courier companies to handle the CRUD of this list.&lt;/p&gt;
+&lt;p&gt;Code and documentation can be found at &lt;a href=&quot;https://github.com/blotmandroid/skadool&quot;&gt;&lt;a href=&quot;https://github.com/blotmandroid/skadool&quot;&gt;https://github.com/blotmandroid/skadool&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I welcome any and all feedback! :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Becoming Hobbit</title>
+      <link>http://blog.pragunbhutani.in/articles/becoming-hobbit/</link>
+      <pubDate>Thu, 03 Jan 2013 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/becoming-hobbit/</guid>
+      <author></author>
+      <description>&lt;p&gt;From this point on, I am going to proudly, ideologically and irrevocably become a hobbit.&lt;/p&gt;
+&lt;p&gt;There isn‘t one good reason that tells me that I shouldn’t do this. One the other hand, there are so many that compel me to! There‘re second breakfasts and mushrooms, there’s beer, more food in general and enough happiness to go around. Making the decision was the easy bit though. The hard part is actually doing it.&lt;/p&gt;
+&lt;p&gt;I mean, how does a person even go about doing something like this? Do I wait till things in life settle down so I can be happy and chilled out? But you can never be sure of that. There&amp;#39;s always something or the other.&lt;/p&gt;
+&lt;p&gt;And then, this is the first time I‘ve had to start thinking about taking responsibility for myself. I don’t know how things are going to pan out in the future. What if life never does really ‘settle down’? Even if it did, would I like it that way? It‘s like this journey that you have to begin and I think the only way I’m going to make it somewhere if I learn to take some joy in the road. Beer and second breakfasts can certainly help. :)&lt;/p&gt;
+&lt;p&gt;So I think I‘m just going to wing it. Try to be happy about stuff, go about my jolly little trade and enjoy the small things as they pass by. Us Hobbits don’t have to ‘grow up’ till we‘re 30, so I think I can take things slow for now and enjoy the journey. I don’t know if it&amp;#39;ll work, but it seems good enough to warrant a try.&lt;/p&gt;
+&lt;p&gt;In line with that spirit, I&amp;#39;m sitting here with a hot cup of coffee on a deliciously cold evening, listening to nice music and writing down this post.&lt;/p&gt;
+&lt;p&gt;I like the hobbit&amp;#39;s life already.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>The Sky Moves Sideways</title>
+      <link>http://blog.pragunbhutani.in/articles/sky-moves-sideways/</link>
+      <pubDate>Sun, 30 Dec 2012 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/sky-moves-sideways/</guid>
+      <author></author>
+      <description>&lt;p&gt;I like to look up at the sky sometimes. Not very often, but every now and then and especially at night. There are very few things that can blow your mind in the same way that a night sky can. It‘s not really the vastness or the blackness or the number of things out there that gets you. It’s this feeling of being disconnected.&lt;/p&gt;
+&lt;p&gt;The world that we interact with in our daily lives, the people that we meet and the things we do all seem so very strangely real in the face of the feeling that you get when you‘re looking up. Out there is a realm so unimaginably vast and complex and beautiful that I cannot even begin to comprehend. Yet, ours is a part of that larger world that goes on in ways that we understand so little of. I’ve never been able to put these two together and see them as one. Every time I‘ve tried to think and reason into this, I’ve always ended up with more questions than I began with.&lt;/p&gt;
+&lt;p&gt;I‘ve imagined myself flying out at times, accelerating away from the Earth and Sun and the solar system as if gravity wasn’t even a thing. Those trips are always fun. You can go on for quite a while, marveling at the scale of things till you hit the “Roof problem” as I like to call it. The way I understand things, everything has to be inside something right? Like, if I was flying away from the Earth, I‘d be in the Solar System. Moving on, I’d pass Neptune and Pluto and then the Oort cloud. Further still, I‘d cross Proxima Centaury and eventually escape the Milky Way. Where to then? To the boundaries of our universe? What does that even mean? How can we be so sure that the universe isn’t inside something else? And what about the container of the universe… what is that thing inside of? The problem iterates upon itself.&lt;/p&gt;
+&lt;p&gt;I‘m not really sure where I was going with all this. If I had an idea at the beginning, I know it’s ‘out there’ somewhere but I‘m pretty sure I’ve lost it completely. The one thing that I&amp;#39;m really sure of though is that,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In an infinite universe, the one thing sentient life cannot afford to have is a sense of proportion.
+- Douglas Adams&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Damn right it can&amp;#39;t.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Slow, Steady, Persistent.</title>
+      <link>http://blog.pragunbhutani.in/articles/slow-steady-persistent/</link>
+      <pubDate>Sat, 29 Dec 2012 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/slow-steady-persistent/</guid>
+      <author></author>
+      <description>&lt;p&gt;I completed my first week of P90X today. It‘s this new workout plan that I’ve started following. I‘ve been in and out of things like this before but I don’t think that I‘ve ever stayed strong through an entire week. I’ve just got 84 more days to go now. Easy.&lt;/p&gt;
+&lt;p&gt;Slow. Steady. Persistent. Those three words have been running through my head for the last couple of days. You see, there‘s always this huge gap between the person that you want to be and the person that you are. Same’s the case with me. A little over a month ago, I made the decision to start bridging that gap and the only way I think I&amp;#39;ll be able to do that is by being slow, steady and persistent.&lt;/p&gt;
+&lt;p&gt;I owe this realization to P90X perhaps. I‘ve really started enjoying the daily workouts and the fact that I don’t have to think about anything else while I‘m doing them. I’m not worried about how far I‘ve come along the program. I’m not worried about how I‘m going to go about finishing the entire program. I’m not trying to keep myself motivated to stick with the plan for the next 12 weeks.&lt;/p&gt;
+&lt;p&gt;I try to motivate myself to stick with it everyday. Every single day, and only one day at a time. Worrying can be such a handicap! What with our tendency to start looking at a task in its entirety and start worrying about how we&amp;#39;re going to go through with it. I now understand that breaking things into small portions makes them so much easier to manage. I sure hope this applies to things other than exercise programs as well!&lt;/p&gt;
+&lt;p&gt;It&amp;#39;s time for me to find out.&lt;/p&gt;
 </description>
     </item>
   </channel>
