@@ -5,9 +5,29 @@
     <atom:link href="http://blog.pragunbhutani.in/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://blog.pragunbhutani.in</link>
     <description>Here, occasionally, stuff will be written.</description>
-    <pubDate>Fri, 29 Mar 2013 05:30:00 +0630</pubDate>
+    <pubDate>Thu, 30 May 2013 05:30:00 +0630</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Google Summer of Code 2013 - Mobilize Wikidata</title>
+      <link>http://blog.pragunbhutani.in/articles/google-summer-of-code/</link>
+      <pubDate>Thu, 30 May 2013 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/google-summer-of-code/</guid>
+      <author></author>
+      <description>&lt;p&gt;It‘s with great excitement that I announce that I’ve been accepted into Google Summer of Code 2013.
+I&amp;#39;m going to be working with the Wikimedia foundation on a project entitled “Mobilize Wikidata”.&lt;/p&gt;
+&lt;p&gt;My project is aimed at extending Wikidata&amp;#39;s functionality to make it accessible on mobile devices.
+Setting up Wikibase with MobileFrontend shows that while MobileFrontend can be used to achieve a mobile-friendly version of Wikidata,
+some problems arise due to JS based UIs not rendering properly through MobileFrontend.&lt;/p&gt;
+&lt;p&gt;My plan is to implement Wikibase without Javascript to make it compatible with MobileFrontend.&lt;/p&gt;
+&lt;p&gt;More details about the project can be found &lt;a href=&quot;http://www.mediawiki.org/wiki/User:Pragunbhutani/GSoC_2013_Proposal&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I‘m really excited about the summer and all that it has to bring.
+This is my first time working with an organization and code base of this scale and I’m sure it&amp;#39;s going to be a great experience.&lt;/p&gt;
+&lt;p&gt;This will be a good opportunity for me to learn how to enhance and improve upon existing code at such a huge scale.
+Mediawiki follows a lot of good coding conventions so I‘m hoping it’ll improve my coding style as well!&lt;/p&gt;
+&lt;p&gt;Anyway, stay tuned to this category and I&amp;#39;ll keep reporting the progress of my project as it moves along.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Suck, Squeeze, Bang, Blow.</title>
       <link>http://blog.pragunbhutani.in/articles/suck-squeeze-bang-blow/</link>
