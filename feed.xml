@@ -118,7 +118,8 @@ Your inputs have had a really improtant role in shaping this project into what i
       <author></author>
       <description>&lt;p&gt;It‘s with great excitement that I announce that I’ve been accepted into Google Summer of Code 2013.
 I&amp;#39;m going to be working with the Wikimedia foundation on a project entitled “Mobilize Wikidata”.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;img src=&quot;http://blog.pragunbhutani.in/articles/google-summer-of-code/logo.png&quot; alt=&quot;Google Summer of Code 2013&quot;&gt;&lt;/p&gt;
 &lt;p&gt;My project is aimed at extending Wikidata&amp;#39;s functionality to make it accessible on mobile devices.
 Setting up Wikibase with MobileFrontend shows that while MobileFrontend can be used to achieve a mobile-friendly version of Wikidata,
 some problems arise due to JS based UIs not rendering properly through MobileFrontend.&lt;/p&gt;
