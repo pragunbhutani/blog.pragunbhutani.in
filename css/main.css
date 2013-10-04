@@ -377,11 +377,11 @@ code.lang-markdown .bullet {
 /* media queries */
 
 @media (min-width: 1600px) {
-  body { font-size: 26px; }
+  body { font-size: 20px; }
 }
 
 @media (max-width: 900px) {
-  body { font-size: 18px; }
+  body { font-size: 14px; }
 }
 
 @media (max-width: 690px) {
