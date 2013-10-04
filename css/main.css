@@ -5,14 +5,14 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 
 body {
   font-family: 'Lora', serif;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 1.52;
   background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
 }
 
 .content-wrap {
-  width: 34em;
+  width: 45em;
   margin: 0 auto;
 }
 
@@ -161,7 +161,7 @@ footer .about {
 
 footer .copy {
   text-align: center;
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-style: italic;
   margin-top: 1em;
 }

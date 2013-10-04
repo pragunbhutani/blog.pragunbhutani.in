@@ -19,13 +19,13 @@ Now, I&amp;#39;d known about the program for a couple of years but had never act
 to get into this program (5 peers from my University) were such better developers than me in every conceivable way and I never really imagined
 that I had any chance of actually getting accepted.&lt;/p&gt;
 &lt;p&gt;Nevertheless, I took the plunge and what followed after has been one of the most interesting summers of my life.&lt;/p&gt;
-&lt;h2&gt;Wikidata and I&lt;/h2&gt;
-&lt;p&gt;![Wikidata Logo](Wikidata Logo.png)&lt;/p&gt;
+&lt;h1&gt;Wikidata and I&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.pragunbhutani.in/articles/google-summer-of-code-2013-wrap-up/logo.png&quot; alt=&quot;Wikidata Logo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I stumbled accross Wikidata completely by chance while browsing through project ideas. To be frank, I had no idea about Wikidata before this
 summer. But as the universe would have it, I had begun taking an interest in Ontologies and Knowledge Graphs not too long ago and here I was
 looking at something that was just that! I browsed through Wikidata and I think that was it. I knew that that was what I wanted to work on
 for GSoC.&lt;/p&gt;
-&lt;h2&gt;Mobilize Wikidata - The Project&lt;/h2&gt;
+&lt;h1&gt;Mobilize Wikidata - The Project&lt;/h1&gt;
 &lt;p&gt;My project was aimed at bringing Wikidata to mobiles. Wikidata is a relatively new project and there&amp;#39;s a lot that needs to be done in terms of
 improving the accessiblity and the user experience. Making Wikidata accessible on mobile phones is one of the things targeted at making it
 easier to access (and hopefully in the near future, add all forms of rich and diverse data).&lt;/p&gt;
@@ -40,7 +40,7 @@ it was sitting right there in Mobile View.&lt;/li&gt;
 &lt;li&gt;The layout was broken because MobileFrontend wasn&amp;#39;t equipped to handle data from Wikibase.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/User:Pragunbhutani/GSoC_2013_Proposal&quot;&gt;Project proposal on Mediawiki.org&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Proposed deliverables and solution approach&lt;/h2&gt;
+&lt;h1&gt;Proposed deliverables and solution approach&lt;/h1&gt;
 &lt;p&gt;Initially, I had proposed to create a no-JS version of entity view because I had believed that JS not rendering UIs properly on mobile devices was
 the cause of all the damage.
 Over the course of the project, it was decided that a better solution approach would be from me to develop a new mobile skin for Wikibase.
@@ -51,7 +51,7 @@ something.&lt;/p&gt;
 &lt;p&gt;Looking back, I think that was a very good decision because a separate skin is so much more maintainable and if someone else feels like coming in to
 contribute, they‘ll have a much easier time understanding everything that’s happening there so they may go about their hacking without wasting the
 hours they would&amp;#39;ve spent had they been looking for the changes I made to EntityView code.&lt;/p&gt;
-&lt;h2&gt;Progress made thus far&lt;/h2&gt;
+&lt;h1&gt;Progress made thus far&lt;/h1&gt;
 &lt;p&gt;I‘m pleased to report that I’ve made some good progress on the skin. While it&amp;#39;s not completely ready to be deployed, I think that the first iteration
 of the skin is about 95% there and I plan on getting the remaining work done ASAP.&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve set up &lt;a href=&quot;http://wikidata-mobile-tester.instance-proxy.wmflabs.org/w/index.php?title=Main_Page&amp;amp;mobileaction=toggle_view_mobile&quot;&gt;a demo&lt;/a&gt; on a labs instance for those who&amp;#39;d like to check it out.&lt;/p&gt;
@@ -61,7 +61,7 @@ of the skin is about 95% there and I plan on getting the remaining work done ASA
 &lt;p&gt;If you&amp;#39;d like to read more about the discussed solution approaches or project status updates, you can find more information on the following links:
 &lt;em&gt; &lt;a href=&quot;https://www.mediawiki.org/wiki/User:Pragunbhutani/GSoC_2013_Updates&quot;&gt;Project status updates&lt;/a&gt;
 &lt;/em&gt; &lt;a href=&quot;http://www.mediawiki.org/wiki/User:Pragunbhutani/GSoC_2013_Implementation_Approaches&quot;&gt;Discussions and solution approaches&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Future Development Ideas&lt;/h2&gt;
+&lt;h1&gt;Future Development Ideas&lt;/h1&gt;
 &lt;p&gt;There&amp;#39;s so much more that can be done to improve the usability and experience of Wikibase mobile! Here are a few ideas that I could think of
 while working on the project and I plan to implement as many of these as I can over the coming months:&lt;/p&gt;
 &lt;ul&gt;
@@ -77,7 +77,7 @@ one which can‘t handle CSS3 animations, we’ll not have any animations. Mobil
 &lt;/ul&gt;
 &lt;p&gt;I&amp;#39;ve already been sharing my experience with a few juniors and my university and hopefully, some of them will get interested in contributing to it!
 Who knows, maybe they could propose another GSoC project to improve upon my work in the coming years (I&amp;#39;d so love to mentor that)! :)&lt;/p&gt;
-&lt;h2&gt;Thank-Yous and Appreciation&lt;/h2&gt;
+&lt;h1&gt;Thank-Yous and Appreciation&lt;/h1&gt;
 &lt;p&gt;I would‘ve gotten absolutely no-where had I not had the support of the wonderful Wikimedia community. There are just so many people
 who’ve helped me out in a hundred ways and more and I&amp;#39;d like to take a minute to say thank you!
 This list isn‘t exhaustive by a long shot. I’ve had hours of help from people in the IRC channels, but here are just a few lines to some of the
