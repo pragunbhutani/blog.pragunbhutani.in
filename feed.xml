@@ -55,8 +55,8 @@ hours they would&amp;#39;ve spent had they been looking for the changes I made t
 &lt;p&gt;I‘m pleased to report that I’ve made some good progress on the skin. While it&amp;#39;s not completely ready to be deployed, I think that the first iteration
 of the skin is about 95% there and I plan on getting the remaining work done ASAP.&lt;/p&gt;
 &lt;p&gt;I&amp;#39;ve set up &lt;a href=&quot;http://wikidata-mobile-tester.instance-proxy.wmflabs.org/w/index.php?title=Main_Page&amp;amp;mobileaction=toggle_view_mobile&quot;&gt;a demo&lt;/a&gt; on a labs instance for those who&amp;#39;d like to check it out.&lt;/p&gt;
-&lt;p&gt;The skin is currently based on the following UI mockup:
-&lt;img src=&quot;http://blog.pragunbhutani.in/articles/google-summer-of-code-2013-wrap-up/UI-Mockup-v2.png&quot; alt=&quot;UI-Mockup-v2.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The skin is currently based on the following UI mockup:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blog.pragunbhutani.in/articles/google-summer-of-code-2013-wrap-up/UI-Mockup-v2.png&quot; alt=&quot;UI-Mockup-v2.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;A copy of the skin may be found &lt;a href=&quot;https://github.com/pragunbhutani/WikibaseMobile&quot;&gt;here&lt;/a&gt; or &lt;a href=&quot;https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FWikibaseMobile&quot;&gt;here&lt;/a&gt;. Installation instructions can be found on the github repo page.&lt;/p&gt;
 &lt;p&gt;If you&amp;#39;d like to read more about the discussed solution approaches or project status updates, you can find more information on the following links:
 &lt;em&gt; &lt;a href=&quot;https://www.mediawiki.org/wiki/User:Pragunbhutani/GSoC_2013_Updates&quot;&gt;Project status updates&lt;/a&gt;
@@ -106,19 +106,6 @@ Your inputs have had a really improtant role in shaping this project into what i
 &lt;li&gt;Mom and dad for the delicious meals and a million other things. Ridhi for having mom and dad take us out for so many of those meals! :D&lt;/li&gt;
 &lt;li&gt;…and everyone else who I interacted with during these past few months over the IRC or the mailing lists or the hangouts. You&amp;#39;re awesome!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;&lt;script type=&quot;text/javascript&quot;&gt;
-    /&lt;em&gt; &lt;/em&gt; &lt;em&gt; CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE &lt;/em&gt; &lt;em&gt; &lt;/em&gt;/
-    var disqus_shortname = ‘pragunsblog’; // required: replace example with your forum shortname&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;/* * * DON&amp;#39;T EDIT BELOW THIS LINE * * */
-(function() {
-    var dsq = document.createElement(&amp;#39;script&amp;#39;); dsq.type = &amp;#39;text/javascript&amp;#39;; dsq.async = true;
-    dsq.src = &amp;#39;//&amp;#39; + disqus_shortname + &amp;#39;.disqus.com/embed.js&amp;#39;;
-    (document.getElementsByTagName(&amp;#39;head&amp;#39;)[0] || document.getElementsByTagName(&amp;#39;body&amp;#39;)[0]).appendChild(dsq);
-})();&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;p&gt;&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     <item>
