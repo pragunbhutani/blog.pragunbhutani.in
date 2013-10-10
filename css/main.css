@@ -383,6 +383,9 @@ code.lang-markdown .bullet {
 
 @media (max-width: 900px) {
   body { font-size: 14px; }
+  .article .content img {
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -436,7 +439,7 @@ code.lang-markdown .bullet {
 	}
 }
 
-@media (max-width: 400px;) {
+@media (max-width: 500px;) {
 	.article .content img {
   	max-width: 300px;
 }
