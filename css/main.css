@@ -431,5 +431,14 @@ code.lang-markdown .bullet {
   footer .about p {
     margin-bottom: 1em;
   }
+  .article .content img {
+  	max-width: 500px;
+	}
+}
+
+@media (max-width: 400px;) {
+	.article .content img {
+  	max-width: 300px;
+}
 }
 
