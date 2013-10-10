@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Increase Maximum File Upload Size in Wordpress on DigitalOcean - Pragun Bhutani's Blog
+    </title>
+    <link rel="alternate" href="http://blog.pragunbhutani.in/feed.xml" type="application/rss+xml" title="Here, occasionally, stuff will be written.">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Increase Maximum File Upload Size in Wordpress on DigitalOcean</h1>
+        <p class="author">Written by <span class="author">Pragun</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>I recently purchased a small instance on digital ocean because my mom wanted to set up a <a href="http://mamtabhutani.com/">blog</a> and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
+<span class="more"></span></p>
+<pre><code>The uploaded file exceeds the upload_max_filesize directive in php.ini.</code></pre>
+<p>I tried making my own php.ini in the wp-admin folder and editing the .htaccess file to allow bigger file sizes. Ultimately, I found the following fix to work just&nbsp;fine.</p>
+<pre><code>sudo nano /etc/php5/apache2/php.ini</code></pre>
+<p>And then look for the line which says <code>upload_max_filesize = 2M</code> and replace&nbsp;with:</p>
+<pre><code>upload_max_filesize = 64M
+post_max_size = 64M
+max_execution_time = 300</code></pre>
+<p>And that should do it for&nbsp;you!</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about">
+        </section>
+        <section class="copy">
+          <p>&copy; 2013 Pragun Bhutani &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

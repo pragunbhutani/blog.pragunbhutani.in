@@ -126,6 +126,24 @@ Your inputs have had a really improtant role in shaping this project into what i
 </description>
     </item>
     <item>
+      <title>Increase Maximum File Upload Size in Wordpress on DigitalOcean</title>
+      <link>http://blog.pragunbhutani.in/articles/increase-maximum-upload-size-in-wordpress/</link>
+      <pubDate>Sat, 21 Sep 2013 05:30:00 +0630</pubDate>
+      <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/increase-maximum-upload-size-in-wordpress/</guid>
+      <author></author>
+      <description>&lt;p&gt;I recently purchased a small instance on digital ocean because my mom wanted to set up a &lt;a href=&quot;http://mamtabhutani.com/&quot;&gt;blog&lt;/a&gt; and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The uploaded file exceeds the upload_max_filesize directive in php.ini.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I tried making my own php.ini in the wp-admin folder and editing the .htaccess file to allow bigger file sizes. Ultimately, I found the following fix to work just fine.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/php5/apache2/php.ini&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And then look for the line which says &lt;code&gt;upload_max_filesize = 2M&lt;/code&gt; and replace with:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;upload_max_filesize = 64M
+post_max_size = 64M
+max_execution_time = 300&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that should do it for you!&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Google Summer of Code 2013 - Mobilize Wikidata</title>
       <link>http://blog.pragunbhutani.in/articles/google-summer-of-code/</link>
       <pubDate>Thu, 30 May 2013 05:30:00 +0630</pubDate>
