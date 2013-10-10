@@ -21,7 +21,7 @@
     <div id="content">
       <div class="content-wrap">
         <article class="article">
-          <section class="content"><p>I recently purchased a small instance on digital ocean because my mom wanted to set up a <a href="http://mamtabhutani.com/">blog</a> and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
+          <section class="content"><p>I recently purchased a small instance on Digital Ocean because my mom wanted to set up a <a href="http://mamtabhutani.com/">blog</a> and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
 <span class="more"></span></p>
 <pre><code>The uploaded file exceeds the upload_max_filesize directive in php.ini.</code></pre>
 <p>I tried making my own php.ini in the wp-admin folder and editing the .htaccess file to allow bigger file sizes. Ultimately, I found the following fix to work just&nbsp;fine.</p>
@@ -31,6 +31,7 @@
 post_max_size = 64M
 max_execution_time = 300</code></pre>
 <p>And that should do it for&nbsp;you!</p>
+<p>Note : Depending upon who you&#39;re using as your hosting provider, there might be a different php.ini file that may be overriding the others to provide the max_upload_filesize directive and this method might not work for you. This has been tried and tested on only&nbsp;DigitalOcean.</p>
 </section>
         </article>
       </div>

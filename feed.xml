@@ -131,7 +131,7 @@ Your inputs have had a really improtant role in shaping this project into what i
       <pubDate>Sat, 21 Sep 2013 05:30:00 +0630</pubDate>
       <guid isPermaLink="true">http://blog.pragunbhutani.in/articles/increase-maximum-upload-size-in-wordpress/</guid>
       <author></author>
-      <description>&lt;p&gt;I recently purchased a small instance on digital ocean because my mom wanted to set up a &lt;a href=&quot;http://mamtabhutani.com/&quot;&gt;blog&lt;/a&gt; and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
+      <description>&lt;p&gt;I recently purchased a small instance on Digital Ocean because my mom wanted to set up a &lt;a href=&quot;http://mamtabhutani.com/&quot;&gt;blog&lt;/a&gt; and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
 &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;The uploaded file exceeds the upload_max_filesize directive in php.ini.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I tried making my own php.ini in the wp-admin folder and editing the .htaccess file to allow bigger file sizes. Ultimately, I found the following fix to work just fine.&lt;/p&gt;
@@ -141,6 +141,7 @@ Your inputs have had a really improtant role in shaping this project into what i
 post_max_size = 64M
 max_execution_time = 300&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And that should do it for you!&lt;/p&gt;
+&lt;p&gt;Note : Depending upon who you&amp;#39;re using as your hosting provider, there might be a different php.ini file that may be overriding the others to provide the max_upload_filesize directive and this method might not work for you. This has been tried and tested on only DigitalOcean.&lt;/p&gt;
 </description>
     </item>
     <item>
