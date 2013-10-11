@@ -30,6 +30,7 @@
         <article class="article">
           <section class="content"><p>I recently purchased a small instance on Digital Ocean because my mom wanted to set up a <a href="http://mamtabhutani.com/">blog</a> and I needed some place to try things out every now and then. I set up a simple Wordpress blog for her but everytime I would try to upload a theme, I would get a message saying that the uploaded file exceeded the maximum allowed size.
 <span class="more"></span></p>
+<p>Note: My instance is running on Ubuntu 12.10&nbsp;x64. </p>
 <pre><code>The uploaded file exceeds the upload_max_filesize directive in php.ini.</code></pre>
 <p>I tried making my own php.ini in the wp-admin folder and editing the .htaccess file to allow bigger file sizes. Ultimately, I found the following fix to work just&nbsp;fine.</p>
 <pre><code>sudo nano /etc/php5/apache2/php.ini</code></pre>
